@@ -1,4 +1,5 @@
 <?php
+// this file to handling login information of user
 session_start();
 require_once("class.user.php");
 $login = new USER();
